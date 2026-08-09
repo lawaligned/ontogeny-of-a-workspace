@@ -10,6 +10,31 @@ This projects studies the ontogeny of global workspace representations during la
 - Pre-onset behavior is genuinely content-invariant, not merely a weak-probe artifact (natural-interchange control).
 - The readable/steerable decoupling reappears in reverse after ablation and regrowth.
 
+## Experiment map
+
+**Completed**
+- Pythia developmental sweep
+- Linear-model gap law
+- Transformer certified control
+- Natural-interchange control
+- Ablation and regrowth
+
+**TODO**
+- OLMo-2-1B developmental replication
+- Kimi-K2 developmental replication
+- Width-held-constant K-scaling control
+- Matched-gradient dilution intervention
+- Legibility-penalty intervention
+- Precision and theory cleanup
+- Checkpoint-localized intervention
+- Data-dilution control
+- Consumer-addition test
+- Workspace competition experiment
+- Rank-scaling test
+- Causal mediation test
+- Cross-scale onset law
+- Persistence and hysteresis test
+
 see `COMPUTE_BUDGET.md`: replicating the developmental study on OLMo-2-1B (the only public model family with a full pretraining checkpoint trajectory at this scale), a width-held-constant scaling control, and two designed training interventions (matched-gradient dilution, legibility-penalty training).
 
 ## Known caveats
