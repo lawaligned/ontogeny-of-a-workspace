@@ -11,7 +11,7 @@ OLMo-2-1B is roughly 6–14× the parameter count of anything lens-fit or λ̂-e
 either operation (lens fitting is dominated by backward passes per prompt; λ̂ estimation by SGLD chain length), so Tier 2's benchmark step exists
 to replace the extrapolation below with a measured number before full spend.
 
-Additional experiments not yet benchmarked include applying J-lens analysis to larger open-weight models such as OLMo-2-1B and Kimi K2,
+Additional experiments not yet benchmarked include applying J-lens analysis to larger open-weight models such as OLMo-2-1B, Kimi K2, GLM 5.2
 investigating whether reasoning-related representations can be reverse-engineered in mathematical tasks, and extending interpretability
 experiments to better understand the internal structures associated with capability and alignment-relevant behaviors.
 
