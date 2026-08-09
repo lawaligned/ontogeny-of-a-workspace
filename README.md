@@ -1,1 +1,2 @@
-# ontogeny-of-a-workspace
+# Ontogeny of a Workspace
+This projects studies the ontogeny of global workspace representations during language-model pretraining such as when globally reusable conceptual representations emerge, whether their emergence follows some developmental transition, and what training dynamics cause models to merge distributed computations into a shared workspace. Currently we have a singular-learning-theoretic account of this transition, preliminary transformer experiments, and developmental results across Pythia checkpoints.
