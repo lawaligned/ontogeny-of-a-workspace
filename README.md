@@ -10,7 +10,7 @@ This projects studies the ontogeny of global workspace representations during la
 - Pre-onset behavior is genuinely content-invariant, not merely a weak-probe artifact (natural-interchange control).
 - The readable/steerable decoupling reappears in reverse after ablation and regrowth.
 
-see `EXPERIMENTS.md` and `COMPUTE_BUDGET.md`: replicating the developmental study on OLMo-2-1B (the only public model family with a full pretraining checkpoint trajectory at this scale), a width-held-constant scaling control, and two designed training interventions (matched-gradient dilution, legibility-penalty training).
+see `COMPUTE_BUDGET.md`: replicating the developmental study on OLMo-2-1B (the only public model family with a full pretraining checkpoint trajectory at this scale), a width-held-constant scaling control, and two designed training interventions (matched-gradient dilution, legibility-penalty training).
 
 ## Known caveats
 Everything to date is at ≤410M parameters (Pythia) plus small synthetic transformers; no frontier-scale or second-model-family replication yet. Several theory results are order-of-magnitude-consistent rather than closed-form-exact (flagged explicitly in `theory/`). 
