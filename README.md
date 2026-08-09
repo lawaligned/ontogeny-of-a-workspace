@@ -35,7 +35,7 @@ This projects studies the ontogeny of global workspace representations during la
 - Cross-scale onset law
 - Persistence and hysteresis test
 
-see `COMPUTE_BUDGET.md`: replicating the developmental study on OLMo-2-1B (the only public model families with a full pretraining checkpoint trajectory at this scale), Kimi-K2, a width-held-constant scaling control, and two designed training interventions (matched-gradient dilution, legibility-penalty training).
+see `COMPUTE_BUDGET.md`: replicating the developmental study on OLMo-2-1B (the only public model families with a full pretraining checkpoint trajectory at this scale), Kimi-K2 (and/or GLM 5.2), a width-held-constant scaling control, and two designed training interventions (matched-gradient dilution, legibility-penalty training).
 
 ## Known caveats
 Everything to date is at ≤410M parameters (Pythia) plus small synthetic transformers; no frontier-scale or second-model-family replication yet. Several theory results are order-of-magnitude-consistent rather than closed-form-exact (flagged explicitly in `theory/`). 
